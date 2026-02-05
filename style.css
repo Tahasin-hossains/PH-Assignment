@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.introduction{
+    background-color: #252525;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+    padding: 3%;
+    border-radius: 5%;
+}
+#website-name-1{
+     background-color: #252525;
+    color: orangered;
+}
+
+
+.buttondiv{
+    background-color: #252525;
+    display: flex;
+}
+#streakbutton{
+    background-color:green ;
+    border-radius: 20%;
+    padding:5%;
+    margin-right:4%;
+    width: 100PX;
+}
+#smileybutton{
+    background-color: orange;
+    border-radius: 100%;
+    padding: 35%;
+}
+
+
+.status-bar{
+    display: flex;
+    color: aliceblue;
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+.number-status{
+     background-color: #252525;
+     padding: 3%;
+     width: 100%;
+     margin-left: 3%;
+     margin-right: 3%;
+     border-radius: 15%;
+}
+.number-status h3{
+    font-size: 45px;
+}
+.motivation{
+    color: #66D9CE;
+}
+.motivation-box{
+    color: white;
+    background-color: #FF8C33;
+    margin-left: 3%;
+     margin-right: 3%;
+     margin-top: 3%;
+     padding: 3%;
+     border-radius: 3%;
+     line-height: 60px;
+     margin-bottom: 5%;
+
+}
+.motivation-box h2{
+    font-size: 45px;
+}
+.motivation-box button{
+    background-color:#FF8C33 ;
+    border-color: aliceblue;
+    color: white;
+    padding: 0.5%;
+    border-radius:20%;
+    border:2%;
+    border-color: white;
+}
+#workout-card-head{
+    color: white;
+    margin-left: 3%;
+     margin-right: 3%;
+     margin-top: 1%;
+     margin-bottom:2%;
+     font-size: 20px;
+}
+.workout-list{
+    color: white;
+    margin-left: 3%;
+     margin-right: 3%;
+     margin-top: 1%;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+}
+.workout-card{
+    background-color: #252525;
+    margin-left:2%;
+    margin-bottom: 5%;
+    margin-right: 4%;
+    min-height: 150px;
+    border-radius: 5%;
+    padding-left: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.workout-card-topbutton{
+    background-color:#5f5c5b;
+    margin-bottom: 2%;
+    border-radius: 15%;
+    color:#FF8C33;
+    min-height: 25px;
+    padding: 2%;
+}
+.workout-card-h4{
+    margin-bottom: 3%;
+}
+.workout-card-p{
+    color: gray;
+    margin-bottom: 3%;
+    color: grey;
+    margin-bottom: 4%;
+}
+hr{
+    height: 2px;
+    border: none;
+    background-color: grey;
+}
+.workout-card-caldata{
+    color: gray;
+    margin-bottom: 3%;
+    color: grey;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+
+.workout-card-lowbutton{
+    color: white;
+    background-color: #FF8C33;
+    border-radius: 20%;
+    padding: 5px;
+    min-height: 30px;
+    min-width: 100px;
+    cursor: pointer;
+}
+.reps{
+    max-width: 100%;
+    color:white;
+    background-color: #66D9CE;
+    padding: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+     margin-top: 3%;
+     padding: 3%;
+     margin-bottom: 4%;
+    
+}
+.reps p{
+    font-size: 30px;
+    text-align: center;
+}
+.reps h3{
+    font-size: 40px;
+    text-align: center;
+}
+#activity{
+    margin-left: 3%;
+    margin-right: 3%;
+     margin-top: 3%;
+     padding: 3%;
+     margin-bottom: 3%;
+    padding: 2%;
+     max-width: 100%;
+  
+}
+#activity h3{
+    font-size: 25px;
+    color: white;
+}
+.card-items{
+    margin-left: 25%;
+    margin-top: 0.5%;
+    margin-right: 25%;
+    color:black;
+    background-color:#FF8C33;
+    padding: 2%;
+    text-align: center;
+    border:10px solid white;
+    
+}
+.activity-name{
+    font-size: 25px;
+}
+.mission-icon{
+    font-size: 30px;
+    font-weight: bold;
+}
